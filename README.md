@@ -32,4 +32,4 @@
 
 ### Acknowledgment
 
-Special thanks to the 2024 eye-training team ([Mambapupil](https://arxiv.org/abs/2404.12083), [TENNs](https://openaccess.thecvf.com/content/CVPR2024W/AI4Streaming/papers/Pei_A_Lightweight_Spatiotemporal_Network_for_Online_Eye_Tracking_with_Event_CVPRW_2024_paper.pdf)) for providing ideas.
+Special thanks to the 2024 eye-tracking team ([Mambapupil](https://arxiv.org/abs/2404.12083), [TENNs](https://openaccess.thecvf.com/content/CVPR2024W/AI4Streaming/papers/Pei_A_Lightweight_Spatiotemporal_Network_for_Online_Eye_Tracking_with_Event_CVPRW_2024_paper.pdf)) for providing ideas.
