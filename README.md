@@ -1,6 +1,6 @@
 # TDTracker: Event-based Eye Tracking Challenge - CVPR 2025 - Third Place Solution
 ### Exploring Temporal Dynamics in Event-based Eye Tracker
-<img src="TDTracker.png" alt="TDTracker's architecture" width="800" />
+<img src="Fig/TDTracker.png" alt="TDTracker's architecture" width="800" />
 
 ### Usage
 1. Prepare the data:
