@@ -2,11 +2,21 @@
 ### Exploring Temporal Dynamics in Event-based Eye Tracker
 <img src="Fig/TDTracker.png" alt="TDTracker's architecture" width="800" />
 
+### Installation
+
+    conda create -n TDTracker python=3.8
+    conda activate TDTracker
+    conda install pytorch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 pytorch-cuda=12.1 -c pytorch -c nvidia
+    conda install h5py,tqdm,scikit-learn,tensorboard
+### Download the dataset
+
+[SEET Dataset](https://github.com/qinche106/cb-convlstm-eyetracking), [3ET+ 2025](https://www.kaggle.com/competitions/event-based-eye-tracking-cvpr-2025/data)
+
 ### Usage
 1. Prepare the data:
 
         cd dataprocess
-        python 3et_plus.py
+        python 3et_plus.py or python seet.py
 
 2. Put the train_aug.h5 and test_aug.h5 to ./data/xxx/:
 
@@ -19,7 +29,7 @@
 
         python test.py
 
-6. Run the test script to generate initial CSV (MSE: 1.4932):
+6. Run the test script to generate post-process CSV (MSE: 1.4932):
 
         python post_process.py
 
